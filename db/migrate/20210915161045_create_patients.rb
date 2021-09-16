@@ -5,6 +5,7 @@ class CreatePatients < ActiveRecord::Migration[5.2]
       t.integer :age
       t.string :provider
       t.integer :number_of_visits
+      t.integer :specialist_id
 
       t.timestamps
     end
